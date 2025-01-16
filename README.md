@@ -76,10 +76,6 @@ Para adicionar novos desenhos, siga os passos abaixo:
 - **Sol**: Um fundo azul claro com um sol amarelo e raios laranja.
 - **Creeper**: Uma recriação da cabeça do Creeper do Minecraft.
 
-## 📷 Prévia
-
-![Galeria de Desenhos](desenho/desenhos)
-
 ## 📚 Referências
 
 - [Documentação do Canvas API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
