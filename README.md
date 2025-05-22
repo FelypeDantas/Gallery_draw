@@ -79,7 +79,6 @@ Para adicionar novos desenhos, siga os passos abaixo:
 ## 📚 Referências
 
 - [Documentação do Canvas API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
-- [Padrões SOLID em JavaScript](https://javascript.plainenglish.io/solid-principles-in-javascript-67b4bdae91b3)
 
 ## 📄 Licença
 
