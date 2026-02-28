@@ -1,98 +1,47 @@
-# Galeria de Desenhos com Canvas
+<h1 align="center">🎨 Mini Paint </h1>
 
-Este projeto é uma galeria interativa de desenhos feita com HTML5 `<canvas>` e JavaScript, seguindo princípios de programação orientada a objetos e boas práticas de desenvolvimento, como o uso do padrão **SOLID**.
+<p align="center">
+  Desenhe direto no navegador <br/>
+  Aqui você pode criar seus próprios desenhos, apagar, limpar a tela e até baixar sua arte. Salva na nuvem? Não. Salva apenas no seu dispositivo.
+</p>
 
-## 📋 Funcionalidades
-
-- Exibição de uma galeria de miniaturas de desenhos.
-- Visualização ampliada de desenhos ao clicar na miniatura.
-- Sistema extensível para adicionar novos desenhos facilmente.
-- Desenhos gerados dinamicamente usando classes específicas para cada tipo.
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5**: Estrutura básica e uso do elemento `<canvas>`.
-- **CSS3**: Estilização da galeria e do layout.
-- **JavaScript**: Lógica de criação e exibição de desenhos.
-- **Padrão SOLID**: Organização modular e extensível.
-
-## 📂 Estrutura do Projeto
-
-```
-.
-├── index.html        # Página principal
-├── styles.css        # Estilização (opcional, inline no exemplo)
-├── scripts.js        # Código principal em JavaScript
-└── README.md         # Documentação do projeto
-```
-
-### Principais Arquivos:
-
-- **index.html**: Estrutura da página e inclusão dos elementos de `<canvas>`.
-- **scripts.js**: Contém a lógica de criação de desenhos e a implementação do sistema de galeria.
-
-## 🚀 Como Usar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/sua-repositorio.git
-   ```
-
-2. Abra o arquivo `index.html` no seu navegador:
-   - Clique duas vezes no arquivo ou use uma extensão de servidor local, como o Live Server no VSCode.
-
-3. Interaja com a galeria:
-   - Clique nas miniaturas para ver os desenhos ampliados no canvas principal.
-
-## ➕ Adicionando Novos Desenhos
-
-Para adicionar novos desenhos, siga os passos abaixo:
-
-1. **Crie uma nova classe de desenho**:
-   - Herde da classe `Drawing` e implemente o método `draw`.
-   ```javascript
-   class NovoDesenho extends Drawing {
-       draw(context, width, height) {
-           // Lógica do desenho aqui
-       }
-   }
-   ```
-
-2. **Registre o desenho**:
-   - Adicione o desenho ao registro:
-   ```javascript
-   registerDrawing('nomeDoDesenho', NovoDesenho);
-   ```
-
-3. **Adicione à galeria**:
-   - Use `addToGallery` para incluir o desenho:
-   ```javascript
-   addToGallery('nomeDoDesenho');
-   ```
-
-## ✨ Exemplos de Desenhos Disponíveis
-
-- **Bandeira**: Um design com triângulos amarelos e círculo azul.
-- **Sol**: Um fundo azul claro com um sol amarelo e raios laranja.
-- **Creeper**: Uma recriação da cabeça do Creeper do Minecraft.
-
-## 📚 Referências
-
-- [Documentação do Canvas API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
-
-## 📄 Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+<p align="center">
+  <img src="https://img.shields.io/badge/status-concluído-green"/>
+  <img src="https://img.shields.io/badge/license-MIT-blue"/>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/>
+</p>
 
 ---
 
-💻 Desenvolvido por [Felype](https://github.com/FelypeDantas).
-```
+## 🧠 Sobre o Projeto
 
-### Explicação:
-- **Clareza:** O README inclui informações claras sobre como usar e expandir o projeto.
-- **Seções organizadas:** Divididas em funcionalidades, tecnologias, estrutura e instruções de uso.
-- **Extensibilidade:** Explica como adicionar novos desenhos de maneira simples.
-- **Referências:** Links úteis para o Canvas API e conceitos relacionados. 
+- Projeto de um mini sistema de desenho estilo Paint feito com Canvas.
+- Permite desenhar com o mouse.
+- Possui seleção de cor e controle de tamanho do pincel.
+- Inclui borracha e botão para limpar a tela.
+- Conta com salvamento automático no navegador (localStorage).
+- Ideal para quem quer desenhar rapidamente sem instalar nenhum programa.
 
-Se precisar de algo mais personalizado ou outra seção no README, é só pedir!
+---
+
+## 🚀 Tecnologias Utilizadas
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- ✅ HTML
+- ✅ CSS
+- ✅ JavaScript
+- ✅ Canvas API
+
+---
+
+## 📦 Como usar
+
+Acesse o link para ver o projeto:  
+<a href="https://SEU_LINK_AQUI.github.io/mini-paint/"> Mini Paint </a>
+
+Ou rode localmente:
+
+```bash
+git clone https://github.com/SEU_USUARIO/mini-paint.git
+cd mini-paint
